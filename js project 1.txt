@@ -1,0 +1,19 @@
+EXERCICE 1
+function bitwiseAnd(number1,number2) {
+return number1 & number2 ;
+}
+function bitwiseor(number1,number2){
+return number1|number2 ;
+}
+function bitwiseXOR(number1, number2) {
+    return number1 ^ number2;
+}
+
+
+exo 2
+const A=function redundant(name) { 
+return function() {
+return name;
+}
+}
+
